@@ -8,6 +8,10 @@ type UserAS = {
     name: string,
     age: number
 }
+type UserASD = {
+    name: string,
+    age: number
+}
 
 function assertsName (user: User): asserts user is User & {name: string} {
     if(!user.name) {
