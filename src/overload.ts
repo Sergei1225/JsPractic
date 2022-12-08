@@ -118,3 +118,12 @@ export function createMap<T>(list: T[]) {
 
 const voo = createMap([2, 2, 1]);
 const voo2 = voo((res) => res + 2);
+
+const booHoo = <T>(n: T): string[] => {
+    const arr = [];
+    arr.push(n + 'dsds')
+    return arr
+}
+
+type SeType = typeof booHoo;
+
