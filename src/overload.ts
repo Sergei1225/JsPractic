@@ -128,4 +128,6 @@ const booHoo = <T>(n: T): string[] => {
 type SeType = typeof booHoo;
 
 console.log(voo2)
+console.log('New changes')
+
 
